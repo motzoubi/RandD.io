@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/RandD.io/static/css/main.dabb5d2a.css",
-    "main.js": "/RandD.io/static/js/main.b023a36c.js",
+    "main.js": "/RandD.io/static/js/main.fd38e9b2.js",
     "static/js/488.1254cdf9.chunk.js": "/RandD.io/static/js/488.1254cdf9.chunk.js",
     "static/media/academy.png": "/RandD.io/static/media/academy.d7a86624ecdfce7f3903.png",
     "static/media/enterprise.png": "/RandD.io/static/media/enterprise.137e839417da981eed3b.png",
     "static/media/logo.png": "/RandD.io/static/media/logo.a9a9a545c2df7150a526.png",
     "index.html": "/RandD.io/index.html",
     "main.dabb5d2a.css.map": "/RandD.io/static/css/main.dabb5d2a.css.map",
-    "main.b023a36c.js.map": "/RandD.io/static/js/main.b023a36c.js.map",
+    "main.fd38e9b2.js.map": "/RandD.io/static/js/main.fd38e9b2.js.map",
     "488.1254cdf9.chunk.js.map": "/RandD.io/static/js/488.1254cdf9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.dabb5d2a.css",
-    "static/js/main.b023a36c.js"
+    "static/js/main.fd38e9b2.js"
   ]
 }
