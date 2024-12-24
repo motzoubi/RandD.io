@@ -84,7 +84,7 @@ const MainComponent = () => {
         </div>
 
         <div>
-          <Button href="https://motzoubi.github.io/RandD.io/prof" rel="noopener">
+          <Button href="/RandD.io/prof" rel="noopener">
             Use the service
           </Button>
         </div>
