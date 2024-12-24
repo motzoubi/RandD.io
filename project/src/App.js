@@ -158,6 +158,8 @@ function App() {
         {/* Define Routes */}
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/home" element={<Home />} />
+          <Route path="/RandD.io" element={<Home />} />
           <Route path="/ring" element={<RingImageComponent/>} />
         </Routes>
 
