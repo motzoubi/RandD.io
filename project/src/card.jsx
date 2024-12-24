@@ -47,7 +47,6 @@ function Card({ image, title, description }) {
             </div>
             <div className='flip-card-back2'>
             <Link to="/ring2" style={{color: "white",fontWeight: "normal", textDecoration: "none" }}> {/* Use the 'to' prop for React Router */}
-
               <h1>{title}</h1>
               <p>{description}</p>
             </Link>

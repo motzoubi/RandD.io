@@ -62,7 +62,7 @@ const MainComponent = () => {
       <Card>
         <div>
           <Title>
-            Research results PR
+            Research results
           </Title>
           <Title>
           and

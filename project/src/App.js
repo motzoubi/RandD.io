@@ -177,7 +177,7 @@ const Home = () => {
   <h2 style={{ fontSize: "48px", marginBottom: "0px" }}>
     R&D Partner Matching
   </h2>
-  <h2>Platform, Eagle</h2>
+  <h2>Platform, ESN:AI</h2>
   <FeatureGrid>
     <FeatureCard1>
       <Card
