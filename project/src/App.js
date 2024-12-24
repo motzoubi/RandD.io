@@ -6,7 +6,7 @@ import "./App.css";
 import logo from "./feature1.png";
 import heroImage from "./feature1.png";
 import feature2 from "./academy.png";
-import feature3 from "./enterprise.png";
+// import feature3 from "./enterprise.png";
 import Card from "./card";
 import Navbar from "./navbar";
 import Footer from "./footer";
@@ -144,24 +144,22 @@ function App() {
         <Navbar />
 
         {/* Add a navigation link to the Ring page */}
-        <Nav>
+        {/* <Nav>
           <NavLink>
             <Link to="/">Home</Link>
           </NavLink>
           <NavLink>
             <Link to="/ring">Ring Image</Link>
           </NavLink>
-        </Nav>
+        </Nav> */}
 
        
 
         {/* Define Routes */}
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/home" element={<Home />} />
-          <Route path="/RandD.io" element={<Home />} />
-          <Route path="/ring" element={<RingImageComponent/>} />
-        </Routes>
+  <Route path="/" element={<Home />} />
+  <Route path="/ring" element={<RingImageComponent />} />
+</Routes>
 
         {/* Uncomment if you want to use the footer */}
         {/* <Footer /> */}
@@ -187,7 +185,7 @@ const Home = () => {
     </FeatureCard1>
     <FeatureCard2>
       <Card
-        image={feature3}
+        image={feature2}
         title="Enterprise"
         description="Corporate Services Shortcut"
       />
