@@ -139,7 +139,7 @@ const FeatureBack = styled(FeatureFace)`
 
 function App() {
   return (
-    <Router>
+    <Router basename="/RandD.io" >
       <div className="app-container">
         <Navbar />
 
