@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/RandD.io/static/css/main.ea42b4de.css",
-    "main.js": "/RandD.io/static/js/main.f16528d4.js",
+    "main.js": "/RandD.io/static/js/main.f005ebed.js",
     "static/js/488.1254cdf9.chunk.js": "/RandD.io/static/js/488.1254cdf9.chunk.js",
     "static/media/academy.png": "/RandD.io/static/media/academy.d7a86624ecdfce7f3903.png",
     "static/media/fridman.png": "/RandD.io/static/media/fridman.08b903d15744446a263e.png",
@@ -10,11 +10,11 @@
     "static/media/lab.png": "/RandD.io/static/media/lab.0d5a766f99e94e72be69.png",
     "index.html": "/RandD.io/index.html",
     "main.ea42b4de.css.map": "/RandD.io/static/css/main.ea42b4de.css.map",
-    "main.f16528d4.js.map": "/RandD.io/static/js/main.f16528d4.js.map",
+    "main.f005ebed.js.map": "/RandD.io/static/js/main.f005ebed.js.map",
     "488.1254cdf9.chunk.js.map": "/RandD.io/static/js/488.1254cdf9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ea42b4de.css",
-    "static/js/main.f16528d4.js"
+    "static/js/main.f005ebed.js"
   ]
 }
