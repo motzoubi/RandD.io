@@ -11,6 +11,7 @@ import Card from "./card";
 import Navbar from "./navbar";
 import Footer from "./footer";
 import RingImageComponent from './ring'; // Import the RingImageComponent
+import RingImageComponentEn from './ring-enter'; // Import the RingImageComponent
 
 const Header = styled(motion.header)`
   background-color: #f8f9fa;
@@ -159,6 +160,8 @@ function App() {
         <Routes>
   <Route path="/" element={<Home />} />
   <Route path="/ring" element={<RingImageComponent />} />
+  <Route path="/ring2" element={<RingImageComponent />} />
+
 </Routes>
 
         {/* Uncomment if you want to use the footer */}

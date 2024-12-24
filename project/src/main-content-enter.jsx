@@ -62,15 +62,16 @@ const MainComponent = () => {
       <Card>
         <div>
           <Title>
-            Research results PR
+          AI-based, 
           </Title>
           <Title>
-          and
+          enterprise-tailored
           </Title>
           <Title>
-            Lab-Corporate
+          R&D Partner Matching Platform
+AI solutions to secure new growth engines and technological competitiveness for companies
             <Title>
-            Matching Platform
+            Use the service
             </Title>
           </Title>
         </div>
