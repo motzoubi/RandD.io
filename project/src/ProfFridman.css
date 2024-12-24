@@ -1,0 +1,130 @@
+/* Center the container and set width */
+.prof-fridman-container {
+    width: 80%;
+    margin: 0 auto; /* Center horizontally */
+    padding: 40px 20px;
+    font-family: 'Roboto', sans-serif; /* Modern font */
+    background: #f9f9f9;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1); /* Subtle container shadow */
+  }
+  
+  /* Header section with profile image and text */
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Spacing between image and text */
+    margin-bottom: 30px;
+    text-align: left; /* Align text left for a professional layout */
+    position: relative;
+  }
+  
+  /* Profile image styling */
+  .prof-image {
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 30px;
+    transition: all 0.3s ease;
+
+  }
+  
+  .prof-image:hover {
+    transform: scale(1.1); /* Slight zoom effect on hover */
+  }
+  
+  /* Profile header information box */
+  .prof-header-info {
+    display: block;
+    padding: 25px;
+    background: linear-gradient(135deg, #6a11cb, #2575fc); /* Gradient background */
+    color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1); /* Softer shadow for emphasis */
+    max-width: 480px;
+    width: 100%;
+    position: relative;
+    z-index: 1;
+  }
+  
+  /* Title and paragraphs inside the header info */
+  .prof-header-info h1 {
+    font-size: 2.4rem;
+    margin: 0;
+    color: #fff;
+    letter-spacing: 1px;
+  }
+  
+  .prof-header-info p {
+    font-size: 1.2rem;
+    margin: 10px 0;
+    color: rgba(255, 255, 255, 0.85); /* Lighter text color */
+    line-height: 1.6;
+  }
+  
+  /* Research summary and sections */
+  .research-summary, .research-pillar, .research-collaboration {
+    margin-bottom: 40px;
+  }
+  
+  /* Section headers with enhanced styling */
+  .research-summary h2, .research-pillar h3, .research-collaboration h3 {
+    font-size: 1.8rem;
+    color: #333;
+    border-bottom: 3px solid #6a11cb; /* Colored border for section emphasis */
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+  }
+  
+  /* Text styling in the research sections */
+  .research-summary p, .research-pillar ul, .research-collaboration p {
+    font-size: 1.1rem;
+    color: #444;
+    line-height: 1.8;
+  }
+  
+  /* Remove list styling for research pillars */
+  .research-pillar ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  /* Styling for research pillar list items */
+  .research-pillar li {
+    margin-bottom: 15px;
+    font-size: 1.2rem;
+    color: #333;
+  }
+  
+  .research-collaboration p {
+    line-height: 1.8;
+  }
+  
+  /* Highlighting key items in research sections */
+  .research-pillar li strong {
+    color: #6a11cb; /* Matching color with header section */
+    font-weight: 600;
+  }
+  
+  /* Responsive adjustments for smaller screens */
+  @media (max-width: 768px) {
+    .prof-fridman-container {
+      width: 95%;
+      padding: 20px;
+    }
+  
+    .header {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .prof-image {
+      margin-bottom: 20px;
+    }
+  
+    .prof-header-info {
+      text-align: center;
+    }
+  }
+  

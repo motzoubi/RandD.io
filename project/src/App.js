@@ -12,6 +12,7 @@ import Navbar from "./navbar";
 import Footer from "./footer";
 import RingImageComponent from './ring'; // Import the RingImageComponent
 import RingImageComponentEn from './ring-enter'; // Import the RingImageComponent
+import ProfFridman from "./ProfFridman";
 
 const Header = styled(motion.header)`
   background-color: #f8f9fa;
@@ -160,7 +161,8 @@ function App() {
         <Routes>
   <Route path="/" element={<Home />} />
   <Route path="/ring" element={<RingImageComponent />} />
-  <Route path="/ring2" element={<RingImageComponent />} />
+  <Route path="/ring2" element={<RingImageComponentEn />} />
+  <Route path="/prof" element={<ProfFridman />} />
 
 </Routes>
 
@@ -175,9 +177,9 @@ function App() {
 const Home = () => {
   return  <FeaturesSection>
   <h2 style={{ fontSize: "48px", marginBottom: "0px" }}>
-    R&D Partner Matching
+    R&D Partner Matching Platform
   </h2>
-  <h2>Platform, ESN:AI</h2>
+  <h2>ESN:AI</h2>
   <FeatureGrid>
     <FeatureCard1>
       <Card

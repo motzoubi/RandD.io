@@ -1,6 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import logo from "./ESN.png";
+import { Link } from "react-router-dom";
 
 const NavbarContainer = styled.nav`
   display: flex;
@@ -73,13 +74,15 @@ const Navbar = () => {
   return (
     <NavbarContainer>
       {/* Left Side Icon */}
-      <Icon>
-        <img
-          src={logo}
-          alt='Logo'
-          style={{ maxWidth: "150px", marginBottom: "1rem" }}
-        />
-      </Icon>
+      <Link to="https://motzoubi.github.io/RandD.io/"> 
+        <Icon>
+          <img
+            src={logo}
+            alt='Logo'
+            style={{ maxWidth: "150px", marginBottom: "1rem" }}
+          />
+        </Icon>
+      </Link>
 
       {/* Right Side Dropdowns */}
       <DropdownContainer>

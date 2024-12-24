@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import styled from "styled-components"; // Using styled-components for easier styling
 
 const CardContainer = styled.div`
@@ -62,17 +63,13 @@ const MainComponent = () => {
       <Card>
         <div>
           <Title>
-          AI-based, 
-          </Title>
-          <Title>
-          enterprise-tailored
+          AI-based, enterprise-tailored
           </Title>
           <Title>
           R&D Partner Matching Platform
-AI solutions to secure new growth engines and technological competitiveness for companies
-            <Title>
+            <Paragraph>
             Use the service
-            </Title>
+            </Paragraph>
           </Title>
         </div>
 
@@ -87,10 +84,11 @@ AI solutions to secure new growth engines and technological competitiveness for 
         </div>
 
         <div>
-          <Button href="https://motzoubi.github.io/RandD.io" target="_blank" rel="noopener">
+          <Button href="https://motzoubi.github.io/RandD.io/prof" rel="noopener">
             Use the service
           </Button>
         </div>
+
       </Card>
     </CardContainer>
   );
