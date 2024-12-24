@@ -84,9 +84,11 @@ const MainComponent = () => {
         </div>
 
         <div>
-          <Button href="/RandD.io/prof" rel="noopener">
+          <Link to="/prof">
+          <Button rel="noopener">
             Use the service
           </Button>
+          </Link>
         </div>
 
       </Card>
