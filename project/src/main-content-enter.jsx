@@ -84,7 +84,7 @@ const MainComponent = () => {
         </div>
 
         <div>
-          <Link to="/prof">
+          <Link to="/">
           <Button rel="noopener">
             Use the service
           </Button>
